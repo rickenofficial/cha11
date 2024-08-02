@@ -1,3 +1,9 @@
+-- DROP DATABASE IF EXISTS employee_management;
+-- CREATE DATABASE employee_management;
+
+\c employee_management;
+
+-- Estructura de las tablas
 CREATE TABLE department (
   id SERIAL PRIMARY KEY,
   name VARCHAR(30) UNIQUE NOT NULL
