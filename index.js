@@ -1,6 +1,5 @@
 const inquirer = require('inquirer');
 require('dotenv').config(); // Load environment variables from .env file
-const inquirer = require('inquirer');
 const { Client } = require('pg');
 
 // Create a new PostgreSQL client
